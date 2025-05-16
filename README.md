@@ -1,6 +1,6 @@
 # 📸 FaceUp
 
-**FaceUp** is a mobile application for taking photos and storing them in a personal image gallery.  
+**FaceUp** is a mobile application for taking photos and storing them in an image gallery.  
 Images are stored and delivered via **Cloudinary**, a cloud-based image management service that ensures optimized media storage and fast delivery through CDN.
 
 ---
