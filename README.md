@@ -5,6 +5,13 @@ Images are stored and delivered via **Cloudinary**, a cloud-based image manageme
 
 ---
 
+### 📲 Demo  
+<img src="assets/demo.gif" height="400"/>  
+
+
+---
+
+
 ## 📱 Tech Stack
 
 ### Front-end
