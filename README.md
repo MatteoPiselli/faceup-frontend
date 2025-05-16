@@ -5,7 +5,7 @@ Images are stored and delivered via **Cloudinary**, a cloud-based image manageme
 
 ---
 
-## 🧱 Tech Stack
+## 📱 Tech Stack
 
 ### Front-end
 - [React Native](https://reactnative.dev/)
