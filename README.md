@@ -12,9 +12,11 @@ Images are stored and delivered via **Cloudinary**, a cloud-based image manageme
 ---
 
 
-## 📱 Tech Stack
+## 📱 Tech Stack  
 
-### Front-end
+All the technologies I used for this mobile application
+
+#### Front-end
 <table>
   <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30"/></td>
@@ -34,7 +36,7 @@ Images are stored and delivered via **Cloudinary**, a cloud-based image manageme
   </tr> 
 </table>
 
-### Back-end
+#### Back-end
 <table>
   <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="30"/></td>
@@ -46,8 +48,12 @@ Images are stored and delivered via **Cloudinary**, a cloud-based image manageme
   </tr>
 </table>
 
-### Tools
+#### Tools
 <table>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="30"/></td>
+    <td>Git / GitHub</td>
+  </tr>
   <tr>
     <td><img src="https://res.cloudinary.com/da72rixci/image/upload/v1747386666/samples/cloudinary-icon.png" width="30"/></td>
     <td>Cloudinary (image hosting & CDN)</td>
