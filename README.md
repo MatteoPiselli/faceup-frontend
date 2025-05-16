@@ -8,18 +8,53 @@ Images are stored and delivered via **Cloudinary**, a cloud-based image manageme
 ## 📱 Tech Stack
 
 ### Front-end
-- [React Native](https://reactnative.dev/)
-- [Expo](https://expo.dev/)
-- [Redux Toolkit](https://redux-toolkit.js.org/)
-- [TypeScript](https://www.typescriptlang.org/)
+<table>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30"/></td>
+    <td>React Native</td>
+  </tr>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="30"/></td>
+    <td>TypeScript</td>
+  </tr>
+  <tr>
+    <td><img src="https://avatars.githubusercontent.com/u/12504344?s=200&v=4" width="30"/></td>
+    <td>Expo</td>
+  </tr>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" width="30"/></td>
+    <td>Redux Toolkit</td>
+  </tr> 
+</table>
 
 ### Back-end
-- [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/)
+<table>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="30"/></td>
+    <td>Node.js</td>
+  </tr>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="30"/></td>
+    <td>Express</td>
+  </tr>
+</table>
 
-### Deployment
-- Front-end deployed with **Expo**
-- Back-end deployed on **Vercel**
+### Tools
+<table>
+  <tr>
+    <td><img src="https://res.cloudinary.com/da72rixci/image/upload/v1747386666/samples/cloudinary-icon.png" width="30"/></td>
+    <td>Cloudinary</td>
+  </tr>
+  <tr>
+    <td><img src="https://avatars.githubusercontent.com/u/12504344?s=200&v=4" width="30"/></td>
+    <td>Expo Go</td>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" width="30"/></td>
+    <td>Vercel</td>
+  </tr>
+</table>
+
+
 
 ---
 
