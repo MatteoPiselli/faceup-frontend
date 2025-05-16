@@ -1,19 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
-import {
-  StyleSheet,
-  TouchableOpacity,
-  View,
-  Text,
-  Button,
-  SafeAreaView,
-} from "react-native";
+import { StyleSheet, TouchableOpacity, View, SafeAreaView } from "react-native";
 import { CameraView, CameraType, FlashMode, Camera } from "expo-camera";
 import { useDispatch } from "react-redux";
 import { addPhoto } from "../reducers/user";
-import FontAwesome from "react-native-vector-icons/FontAwesome";
+import _FontAwesome from "react-native-vector-icons/FontAwesome";
 import { useIsFocused } from "@react-navigation/native";
 
 export default function SnapScreen() {
+  const FontAwesome = _FontAwesome as React.ElementType;
   const dispatch = useDispatch();
   const isFocused = useIsFocused();
 
@@ -61,7 +55,7 @@ export default function SnapScreen() {
     } as any);
     console.log("formData", formData);
 
-    fetch("http://192.168.1.87:3000/upload", {
+    fetch("https://faceup-backend-lac.vercel.app/upload", {
       method: "POST",
       body: formData,
     })

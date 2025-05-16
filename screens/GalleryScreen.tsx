@@ -7,12 +7,13 @@ import {
   Text,
   TouchableOpacity,
   View,
-} from 'react-native';
-import { useDispatch, useSelector } from 'react-redux';
-import { removePhoto, UserState } from '../reducers/user';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
+} from "react-native";
+import { useDispatch, useSelector } from "react-redux";
+import { removePhoto, UserState } from "../reducers/user";
+import _FontAwesome from "react-native-vector-icons/FontAwesome";
 
 export default function GalleryScreen() {
+  const FontAwesome = _FontAwesome as React.ElementType;
   const dispatch = useDispatch();
   const user = useSelector((state: { user: UserState }) => state.user.value);
 
@@ -20,7 +21,12 @@ export default function GalleryScreen() {
     return (
       <View key={i} style={styles.photoContainer}>
         <TouchableOpacity onPress={() => dispatch(removePhoto(data))}>
-          <FontAwesome name='times' size={20} color='#000000' style={styles.deleteIcon} />
+          <FontAwesome
+            name="times"
+            size={20}
+            color="#000000"
+            style={styles.deleteIcon}
+          />
         </TouchableOpacity>
 
         <Image source={{ uri: data }} style={styles.photo} />
@@ -43,16 +49,16 @@ export default function GalleryScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
   },
   galleryContainer: {
-    flexWrap: 'wrap',
-    flexDirection: 'row',
-    justifyContent: 'center',
+    flexWrap: "wrap",
+    flexDirection: "row",
+    justifyContent: "center",
   },
   photoContainer: {
-    alignItems: 'flex-end',
+    alignItems: "flex-end",
   },
   photo: {
     margin: 10,
@@ -60,7 +66,7 @@ const styles = StyleSheet.create({
     height: 150,
   },
   title: {
-    fontFamily: 'Futura',
+    fontFamily: "Futura",
     fontSize: 22,
     marginTop: 10,
     marginBottom: 10,
