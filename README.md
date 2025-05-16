@@ -43,14 +43,14 @@ Images are stored and delivered via **Cloudinary**, a cloud-based image manageme
 <table>
   <tr>
     <td><img src="https://res.cloudinary.com/da72rixci/image/upload/v1747386666/samples/cloudinary-icon.png" width="30"/></td>
-    <td>Cloudinary</td>
+    <td>Cloudinary (image hosting & CDN)</td>
   </tr>
   <tr>
     <td><img src="https://avatars.githubusercontent.com/u/12504344?s=200&v=4" width="30"/></td>
-    <td>Expo Go</td>
+    <td>Expo Go (deployment/testing)</td>
   <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" width="30"/></td>
-    <td>Vercel</td>
+    <td>Vercel (back-end hosting)</td>
   </tr>
 </table>
 
