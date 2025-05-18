@@ -77,4 +77,3 @@ All the technologies I used for this mobile application
 - 🖼️ View and manage a photo gallery
 - ☁️ Store images on Cloudinary
 - ⚡ Quick loading of images via CDN
-- 📱 Mobile user interface
